@@ -1,0 +1,46 @@
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  padding: 10px 30px;
+}
+
+.heatmap-circle {
+  content-visibility: auto;
+  contain-intrinsic-size: 16px 16px;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  color: #999;
+  font-size: 14px;
+}
+
+.tooltip {
+  position: absolute;
+  z-index: 1070;
+  display: block;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  text-align: start;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  letter-spacing: normal;
+  word-break: normal;
+  word-spacing: normal;
+  white-space: normal;
+  line-break: auto;
+  font-size: 0.875rem;
+  word-wrap: break-word;
+  opacity: 0;
+}
+
+.stats {
+  font-weight: bold;
+  color: green;
+}
